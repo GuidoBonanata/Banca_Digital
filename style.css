@@ -1,0 +1,259 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(8deg, #6b0e60 0%, #fff 100%);
+}
+.btn, .btndescarga{
+    background-color: #6209DB;
+    border-color:#6209DB;
+    width: 300px;
+}
+.btn:hover , .btndescarga:hover{
+    background-color: #6b0e60;
+    border-color:#6b0e60 ;
+}
+#contacto{
+    margin-top: -500px;
+}
+.img-compu{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+.escritorio{
+    border-radius: 25px;
+    -moz-box-shadow: 7px 6px 5px #000000;
+    -webkit-box-shadow: 7px 6px 5px #000000;
+    box-shadow: 7px 6px 5px #000000;
+
+}
+.articulos{
+    display: flex;
+}
+.educacion{
+    font-size:50px;
+    margin-bottom: 30px;
+    color: black;
+   
+}
+.marco{
+    width: 800px;
+    background-color: #CECECE ;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    -moz-box-shadow: 7px 6px 5px #000000;
+    -webkit-box-shadow: 7px 6px 5px #000000;
+    box-shadow: 7px 6px 5px #000000;
+    margin-left: 20%;
+    margin-top:200px
+
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.navbar{
+    min-height: 90px;
+}
+.nav-item{
+    padding:5px;
+}
+.textito{
+    color:#6209DB;
+    font-size: 20px;
+}
+.punto{
+    color:#6209DB;
+    font-size: 30px;
+}
+#empresa{
+    margin-bottom: 600px;
+    margin-top: 400px;
+    border-radius:25px;
+}
+.bg-primary{
+    background-color:#6209DB;
+    
+}
+
+.lista{
+    
+    margin-left: 30%;
+    margin-top: 0;
+}
+h2{
+    margin-top: -600px;
+}
+.contenedor{
+    
+max-width: 500px;    
+margin-left: 17%;
+
+}
+.hamburguesa{
+    width: 30px;
+    justify-content: center;
+    margin-left: 10px;
+    
+    align-items: center;
+}
+
+.img-banca{
+    margin-left: 90%;
+    margin-right: 0px;
+    margin-top:-330px;
+    height: 450px;
+    border-radius: 25px;
+    -moz-box-shadow: 7px 6px 5px #000000;
+    -webkit-box-shadow: 7px 6px 5px #000000;
+    box-shadow: 7px 6px 5px #000000;
+    margin-left: 200px;    
+
+}
+.img-posnet{
+    border-radius: 25px;
+    margin-top: -300px;
+    -moz-box-shadow: 7px 6px 5px #000000;
+    -webkit-box-shadow: 7px 6px 5px #000000;
+    box-shadow: 7px 6px 5px #000000;
+
+}
+.titulo-dinero{
+    margin-top: -300px;
+    font-size: 50px;
+    margin-left: 15%;
+    margin-bottom: 30px;
+}
+.container-padre{
+    max-width: 500px;
+    margin-left: 10%;
+    margin-top:10px;
+    height: 900px;
+}
+.contenedor-imagen{
+    width: 150px;
+    float:right;
+    
+
+}
+.redes{
+    margin-top: 100px;
+}
+@media all and (min-width: 600px) and (max-width:1023px){
+    .img-banca{
+        height: 250px;
+        width: 250px;
+    }
+    .nav-item{
+        margin-left: 60%;
+    }
+    .marco{
+        margin-top: 300px;
+    }
+    
+    #descargar {
+        margin-left: 60%;
+    }
+    .escritorio{
+        width: 400px;
+        border-radius: 25px;
+        -moz-box-shadow: 7px 6px 5px #000000;
+        -webkit-box-shadow: 7px 6px 5px #000000;
+        box-shadow: 7px 6px 5px #000000;
+    
+    } 
+    .lista{
+        margin-left: 30%;
+        margin-top: 0px;
+    }
+    .img-posnet{
+        border-radius: 25px;
+        margin-top: -700px;
+        -moz-box-shadow: 7px 6px 5px #000000;
+        -webkit-box-shadow: 7px 6px 5px #000000;
+        box-shadow: 7px 6px 5px #000000;   
+    }
+    #empresa{
+        margin-bottom: 800px;
+        margin-top: 600px;
+        border-radius:25px;
+    }
+    .titulo-dinero{
+        margin-top: -1000px;
+        font-size: 50px;
+        margin-left: 15%;
+        margin-bottom: 30px;
+    }
+    h2{
+        margin-top: -400px;
+    }
+    #empresa{
+        border-radius:25px;
+    }
+    .articulos{
+        display: block;
+    }
+}
+
+@media all and (min-width: 300px) and (max-width:900px){
+    .img-banca{
+        height: 0px;
+    }
+    #empresa{
+        margin-bottom: 1000px;
+        margin-top: 800px;
+        border-radius:25px;
+    }
+    form{
+        width: 50%;
+    }
+    .articulos{
+        display: block;
+    }
+    .escritorio{
+        width: 400px;
+        border-radius: 25px;
+        -moz-box-shadow: 7px 6px 5px #000000;
+        -webkit-box-shadow: 7px 6px 5px #000000;
+        box-shadow: 7px 6px 5px #000000;
+    } 
+    .articulos{
+        display: block;
+    }
+    .nav-item{
+        margin-left: 60%;
+    }
+    #descargar {
+        margin-left: 60%;
+    }
+    .lista{
+        margin-left: 30%;
+        margin-top: 0px;
+    }
+    .texto{
+        width: 80%;
+    }
+    .img-posnet{
+        border-radius: 25px;
+        margin-top: -800px;
+        -moz-box-shadow: 7px 6px 5px #000000;
+        -webkit-box-shadow: 7px 6px 5px #000000;
+        box-shadow: 7px 6px 5px #000000;
+    }
+    #empresa{
+        height: 200px;
+    }
+    .titulo-dinero{
+        margin-top: -1100px;
+        font-size: 50px;
+        margin-left: 15%;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    h2{
+        margin-top: -200px;
+    }
+    .marco{
+        width: 80%;
+    }
+}
